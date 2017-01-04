@@ -10,7 +10,7 @@ import java.awt.Container;
 
  public abstract class main extends JFrame implements ActionListener{
    public static void main(String args[]){
-     JFrame frame=new JFrame("KansuEmitter");
+     JFrame frame = new JFrame("KansuEmitter");
      frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
      frame.setSize(400,400);
      JPanel p = new JPanel();
